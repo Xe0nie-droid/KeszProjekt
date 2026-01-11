@@ -47,7 +47,7 @@ th{
     </style>
 </head>
 <body>
-    <h1 class="szoveg">Check-up placeholder</h1>
+    <h1 class="szoveg">Check-up</h1>
     <br>
     <table>
         <tr>
@@ -72,4 +72,5 @@ th{
         ?>
     </table>
 </body>
+
 </html>
