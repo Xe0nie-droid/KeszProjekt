@@ -14,9 +14,9 @@ body{
 
 .menu-container {
     display: flex;
-    justify-content: center;     /* center items */
-    gap: 40px;                   /* spacing between menu points */
-    position: relative;          /* allow line behind items */
+    justify-content: center;     
+    gap: 40px;                  
+    position: relative;          
     padding: 20px 0;
 }
 
@@ -27,8 +27,8 @@ body{
     left: 0;
     right: 0;
     height: 40px;
-    background-color: rgb(32,59,46);     /* line color */
-    z-index: 0;                  /* behind the menu items */
+    background-color: rgb(32,59,46);    
+    z-index: 0;                
 }
 .MenuPoints {
     background: rgb(32,59,46);
@@ -42,7 +42,7 @@ body{
 }
 .content-box {
     width: 80%;
-    margin: 40px auto;      /* center box */
+    margin: 40px auto;      
     background: white;
     padding: 20px 30px;
     border-radius: 10px;
@@ -53,3 +53,4 @@ body{
 .logo{
     height: 150px;
 }
+
