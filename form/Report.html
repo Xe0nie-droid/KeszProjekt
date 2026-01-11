@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hibabejelentés</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <h1>Hibabejelentés</h1>
+
+    <div id="msgBox" class="msg"></div>
+
+    <div class="hiba_form">
+        <form id="addForm" class="card">
+
+            <div class="field">
+                <label for="item">Tárgy neve</label>
+                <input type="text" id="item" name="targy_neve" required>
+            </div>
+
+            <div class="field">
+                <label for="person">Tanár neve</label>
+                <input type="text" id="person" name="tanar_neve" required>
+            </div>
+
+            <div class="field">
+                <label for="issue">Hiba</label>
+                <input type="text" id="issue" name="hiba" required>
+            </div>
+
+            <div class="actions">
+                <button type="submit">Felvesz</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

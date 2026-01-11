@@ -1,0 +1,55 @@
+.Menu{
+    background-color: rgb(22,41,32);
+    padding: 5px;
+    
+}
+.header{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: rgb(37,37,37);
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;     /* center items */
+    gap: 40px;                   /* spacing between menu points */
+    position: relative;          /* allow line behind items */
+    padding: 20px 0;
+}
+
+.menu-container::before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: rgb(32,59,46);     /* line color */
+    z-index: 0;                  /* behind the menu items */
+}
+.MenuPoints {
+    background: rgb(32,59,46);
+    padding: 0 10px;
+    font-size: 18px;
+    z-index: 1;
+    color: white;
+}
+.MenuPoints:hover{
+    cursor: pointer;
+}
+.content-box {
+    width: 80%;
+    margin: 40px auto;      /* center box */
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.logo{
+    height: 150px;
+}
