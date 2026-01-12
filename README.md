@@ -1,13 +1,71 @@
 # KeszProjekt
 
 
-Edureport felhasználói utasítás
+Felhasználói dokumentáció
 
-1. Az Xampp-on belül a htdocs mappában hozzon létre egy új mappát, ahova beilleszti az összes letöltött fájlt.
-2. Nyissa meg az Xampp-ot kapcsolja fel az Apache-t és a MySql-t.
-3. Nyisson meg egy böngészőt és írja be a keresőbe, hogy: http://localhost/[A mappa neve amit megadott]/adatbazis.html
+(Schlagmüller Stella, Kertész Richard)
 
------------------------
 
-Ide ird Stella majd :3
+
+Téma: Iskolai Eszköznyilvántartó és Hibabejelentő Webalkalmazás
+
+
+A rendszer célja;
+●	Az alkalmazás célja, hogy az iskola tanárai egyszerűen be tudják jelenteni a meghibásodott eszközöket, míg a rendszergazda nyomon tudja követni és kezelni ezeket a bejelentéseket.
+
+
+Tanárok:
+●	Hibabejelentés rögzítése.
+Rendszergazda:
+●	Hibabejelentések megtekintése.
+●	Hibák állapotának módosítása.
+
+Hibabejelentések megtekintése (rendszergazda):
+1)	Egy listában látja az összes bejelentést
+a)	Eszköz neve
+b)	Hiba leírása
+
+
+Állapot módosítása:
+A rendszergazda módosíthatja a hibák állapotát:
+1.	Folyamatban
+2.	Megoldva
+3.	Új
+
+
+
+
+
+
+
+
+
+○	
+Fejlesztői dokumentáció
+
+
+Használt technológiák:
+●	Backend(űrlap feldolgozás, adatbázis műveletek)
+○	PHP
+○	Python
+●	Frontend( űrlap a hibabejelentéshez és lista az adatok megjelenítéséhez)
+○	HTML
+○	CSS
+○	JavaScript
+●	Adatbázis(hibabejelentések tárolása)
+
+
+Továbbfejlesztési lehetőségek:
+●	Email értesítések
+●	Eszközök nyilvántartása
+●	Jogosultságkezelés(diák,tanár,admin)
+●	Bejelentkezési rendszer
+
+
+
+
+
+
+
+
 
